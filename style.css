@@ -1,6 +1,6 @@
 .heading{
     color: orangered;
-    padding-top: 40px;
+    padding-top: 20px;
     text-align: center;
     font-weight:bolder;
     font-size: 50px;
@@ -12,6 +12,10 @@
     font-family:Arial, Helvetica, sans-serif;
     font-size: x-small;
     padding-top: 0;
+}
+.cover img{
+    width: 100%;
+
 }
 
 
@@ -65,6 +69,7 @@ p{
 }
 
 .flex-container{
+    background-image: url(images/shapes/Frame\ 58.png);
     display: flex;
     margin-bottom: 80px;
 }
