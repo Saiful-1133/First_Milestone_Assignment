@@ -1,0 +1,43 @@
+span{
+    color: orangered;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+}
+p{
+    margin-bottom: 30px;
+}
+.link{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Times New Roman';
+    font-size: smaller;
+    background-image: linear-gradient( orange, red);
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 100px 0;
+}
+
+.div-width{
+    width: 50%;
+    padding: 5px 20px;
+    margin: 40px;
+}
+.div-width img{
+    width: 90%;
+    margin-left: 40px;
+
+}
+.flex-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.middle-section{
+    background-image: url(images/shapes/Frame\ 59.png);
+    padding-right: 0px;
+
+}
+.middle-div{
+    margin-top: 100px;
+}
