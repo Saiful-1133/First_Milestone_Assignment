@@ -1,6 +1,12 @@
 span{
     color: orangered;
 }
+span1{
+    color: rgb(24, 24, 224);
+}
+span2{
+    color:red;
+}
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 30px;
@@ -53,17 +59,34 @@ p{
 
 }
 .box-shaddow{
-    box-shadow: 10px 10px 5px rgb(56, 52, 50);
+    box-shadow: 10px 10px 3px rgb(219, 212, 212);
     border-radius: 10px;
 }
-.item{
-    background-color: orangered;
+.items{
+    background-color: rgb(255, 255, 255);
     width: 30%;
     padding: 10px;
+    margin: 10px;
     border-radius: 15px;
+    margin-bottom: 80px;
    
 }
 .food-pic img{
     width: 100%;
-    border-radius: 10px;
+    border-radius: 15px;
 }
+.flexible{
+    display: flex;
+}
+.foot{
+    text-align: center;
+    font-size:x-small;
+    background-color: rgb(27, 26, 26);
+    padding: 10px 0; 
+
+}
+.foot p{
+    color: white;
+    font-family: cursive;
+}
+
