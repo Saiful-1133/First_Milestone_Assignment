@@ -1,24 +1,47 @@
+.heading{
+    color: orangered;
+    padding-top: 40px;
+    text-align: center;
+    font-weight:bolder;
+    font-size: 50px;
+}
+
+.branding{
+    color: black;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    padding-top: 0;
+}
+
+
 span{
     color: orangered;
 }
+
 span1{
     color: rgb(24, 24, 224);
 }
+
 span2{
     color:red;
 }
+
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 30px;
 }
+
 h2{
     text-align: center;:
     margin-top: 100px;
     margin-bottom: 0px;
 }
+
 p{
     margin-bottom: 30px;
 }
+
 .link{
     text-decoration: none;
     color: whitesmoke;
@@ -35,75 +58,99 @@ p{
     padding: 5px 20px;
     margin: 40px;
 }
-.div-width img{
-    width: 90%;
-    margin-left: 40px;
 
+.div-width img{
+    width: 80%;
+    margin-left: 40px;
 }
+
 .flex-container{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
+
 .middle-section{
     background-image: url(images/shapes/Frame\ 59.png);
     padding-right: 0px;
-
 }
+
 .middle-div{
     margin-top: 100px;
 }
+
+.mid-div{
+    margin:auto;
+}
+
 .describe{
     margin-left: 150px;
     margin-right: 150px;
     text-align: center;
-
 }
+
 .box-shaddow{
     box-shadow: 10px 10px 3px rgb(219, 212, 212);
     border-radius: 10px;
     background-color: white;
 }
+
 .items{
     background-color: rgb(255, 255, 255);
     width: 30%;
     padding: 10px;
     margin: 10px;
     border-radius: 15px;
-    margin-bottom: 80px;
-   
+    margin-bottom: 80px;  
 }
+
 .food-pic img{
     width: 100%;
     border-radius: 15px;
 }
+
 .flexible{
     display: flex;
-
 }
+
 .foot{
     text-align: center;
     font-size:x-small;
     background-color: rgb(27, 26, 26);
     padding: 10px 0; 
-
 }
+
 .foot p{
     color: white;
     font-family: cursive;
 }
+
 .bottom{
     margin: 10px;
     padding: 5px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.mid-div{
-    margin-left: 150px;
-    margin-right:150px;
-    
+
+.flex-container .box-shaddow{
+    width: 100%;
 }
+
+.mid-div{
+  margin: auto;   
+}
+
+.bottom.mid-div{
+    margin-left: 50px;
+    width: 33%; 
+} 
+
+.flex-container{
+    width: 100%;
+}
+
 .show1{
     text-align: center;
 }
+
 .show2 p{
     text-align:right;
 }
